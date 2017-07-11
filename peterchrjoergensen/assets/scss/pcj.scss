@@ -91,6 +91,16 @@ Header
 	p, h2 { font-weight: 600 }
 	p { font-size: 2em; font-weight: 400 }
 	@media (min-width: 550px) { h2 { font-size: 5.0rem } }
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+		color: $white !important;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
 }
 
 
