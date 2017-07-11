@@ -13,9 +13,15 @@
 			<!-- Introduction -->
 			<section class="parallax intro" data-parallax="scroll" data-speed="0.6" data-image-src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/img/index.jpg" data-natural-width="1920" data-natural-height="1080" data-z-index="0">
 				<div class="container">
-					<h2>Welcome,</h2>
-					<p>This is my blog.</p>
-					<p><?php echo bloginfo('description'); ?></p>
+					<h2>
+						Welcome,
+					</h2>
+					<p>
+						You have found my personal blog, where I talk about the <b>ideas</b>, the <b>insights</b> and the <b>techniques</b> behind my projects.
+					</p>
+					<p>
+						In addition, I post about <b>news</b>, <b>events</b> and <b>resources</b> relevant to the <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23webdev%20AND%20from%3A%40tehwave" target="_blank" rel="noopener" class="twitter-search">#webdev</a> & <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23gamedev%20AND%20from%3A%40tehwave" target="_blank" rel="noopener" class="twitter-search">#gamedev</a> communities.
+					</p>
 				</div>
 			</section>
 
