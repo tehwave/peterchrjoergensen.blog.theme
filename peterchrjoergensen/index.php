@@ -25,8 +25,28 @@
 				</div>
 			</section>
 
-			<!-- Latest Posts -->
-			<div class="container projects text-center">
+			<!-- Latest Posts & Sidebar -->
+			<div class="container">
+				<div class="row">
+					<section class="two-thirds column">
+						<h2>Latest posts</h2>
+						<hr>
+						<?php
+							if ( have_posts() ) : while ( have_posts() ) : the_post();
+								?><h2><?php the_title(); ?></h2><?php
+								?><small>This entry was posted on 
+								<?php the_time('l, F jS, Y') ?> at 
+								<?php the_time() ?> and is filed 
+								under <?php the_category(', ') ?>. You 
+								can follow any responses to this entry 
+								through the <?php comments_rss_link('RSS 2.0'); ?> 
+								feed.</small><br><?php
+								the_excerpt();
+							endwhile; endif
+						?>
+					</section>
+					<?php get_sidebar(); ?>
+				</div>
 			</div>
 		</main>
 
