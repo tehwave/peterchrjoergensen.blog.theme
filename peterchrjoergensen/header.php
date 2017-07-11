@@ -41,7 +41,7 @@
 				<section class="u-full-width">
 					<!-- Title -->
 					<h1 class="title">
-						<a href="/">Peter Christian Jørgensen</a>
+						<a href="https://peterchrjoergensen.dk/">Peter Christian Jørgensen</a>
 					</h1>
 					<hr>
 				</section>
