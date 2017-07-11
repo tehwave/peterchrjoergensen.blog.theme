@@ -30,144 +30,13 @@ body {
 
 hr {
     margin-bottom: 2rem;
-    border-color: #E77E2D
+    border-color: $orange;
 }
 
 a {
     text-decoration-skip: ink;
 }
 
-
-/* --------------------------------
-
-Home
-
--------------------------------- */
-
-.home {
-	.projects {
-		h3 {
-			font-size: 1.8rem;
-			@media (min-width: 550px) { font-size: 2.4rem }
-		}
-
-		.portfolio-referral {
-			margin-top: 4rem;
-		}
-
-		.project h2 {
-		    margin-top: 20px
-		}
-
-		.project .lead {
-		    font-size: 1.25em
-		}
-	}
-}
-
-/* --------------------------------
-
-Portfolio
-
--------------------------------- */
-
-.portfolio {
-
-	.projects {
-		hr {
-			margin-bottom: 5rem;
-		}
-
-		.controls {
-			padding: 0 20px;
-		    margin-left: -5px;
-		    margin-bottom: .5rem;
-		    list-style: none;
-
-			li {
-			    display: inline-block;
-			    padding-right: 5px;
-			    padding-left: 5px;
-			}
-		}
-	}
-
-	.project {
-		.image {
-			margin-bottom: 2rem;
-			border-radius: 1rem;
-		}
-
-		.title {
-			margin-bottom: 0;
-		}
-
-		hr {
-			margin: 2rem 0;
-		}
-
-		.tags {
-			padding-left: 0;
-		    margin-left: -5px;
-		    margin-bottom: 4rem;
-		    list-style: none;
-
-			li {
-			    display: inline-block;
-			    padding-right: 5px;
-			    padding-left: 5px;
-
-			    padding: 0 15px;
-			    font-size: 11px;
-			    font-weight: 600;
-			    letter-spacing: .1rem;
-			    text-transform: uppercase;
-			    text-decoration: none;
-			    white-space: nowrap;
-			    background-color: transparent;
-			    border-radius: 4px;
-			    border: 1px solid #bbb;
-			    box-sizing: border-box;
-			}
-		}
-
-		.lead {
-			font-weight: bold;
-		}
-
-		p {
-			text-align: justify;
-			text-align-last: center;
-
-			@media (min-width: 750px) {
-				max-width: 300px;
-				margin-left: 50px;
-			}
-		}
-
-		.button {
-			margin-top: 2rem;
-		}
-
-		@media (min-width: 750px) {
-			max-width: 400px;
-			width: 100%;
-		}
-
-		max-width: 100%;
-		position: relative;
-		display: inline-block;
-		vertical-align: top;
-		background: $gray;
-
-		margin-bottom: 2rem;
-		margin-left: 0.5rem;
-		margin-right: 0.5rem;
-		padding: 30px;
-		border-radius: 4px;
-		border: 1px solid #bbb;
-	}
-}
 
 /* --------------------------------
 
@@ -223,6 +92,60 @@ Header
 	p { font-size: 2em; font-weight: 400 }
 	@media (min-width: 550px) { h2 { font-size: 5.0rem } }
 }
+
+
+/* --------------------------------
+
+Other
+
+-------------------------------- */
+
+// No JavaScript
+.no-js {
+	img.lazyload {
+		display: none;
+	}
+}
+
+// Lazy Load
+.lqip {
+	will-change: filter;
+	@include filter(blur(2px));
+}
+
+.lqip.lazyloaded {
+	@include filter(blur(0px));
+	@include transition(filter 0.5s ease-in-out);
+}
+
+// Parallax
+.parallax-mirror {
+	opacity: 1;
+	will-change: transform;
+	@include animation(parallax 0.5s ease-in-out);
+}
+
+.parallax {
+	background: $bluegray;
+
+	.container {
+		padding: 10rem 20px;
+
+		@media (min-width: 400px) {
+			padding: 10rem 0;
+		}
+	}
+
+	@include keyframes(parallax) {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+}
+
 
 /* --------------------------------
 
@@ -284,67 +207,6 @@ footer {
 
 /* --------------------------------
 
-Other
-
--------------------------------- */
-
-.no-js {
-	.controls, img.lazyload {
-		display: none;
-	}
-}
-
-// Lazy Load
-.lqip {
-	will-change: filter;
-	@include filter(blur(2px));
-}
-
-.lqip.lazyloaded {
-	@include filter(blur(0px));
-	@include transition(filter 0.5s ease-in-out);
-}
-
-.twitter-search {
-	font-weight: bold;
-	text-decoration: none;
-	color: $white !important;
-
-	&:hover {
-		opacity: 0.5;
-	}
-}
-
-.parallax-mirror {
-	opacity: 1;
-	will-change: transform;
-	@include animation(parallax 0.5s ease-in-out);
-}
-
-.parallax {
-	background: $bluegray;
-
-	.container {
-		padding: 10rem 20px;
-
-		@media (min-width: 400px) {
-			padding: 10rem 0;
-		}
-	}
-
-	@include keyframes(parallax) {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
-	}
-}
-
-
-/* --------------------------------
-
 Helpers
 
 -------------------------------- */
@@ -356,22 +218,4 @@ Helpers
 .small {
 	font-size: small;
 	font-weight: 300;
-}
-
-/* --------------------------------
-
-MixItUp
-
--------------------------------- */
-
-button.mixitup-control-active {
-	color: #FFF;
-	background-color: #33C3F0;
-	border-color: #33C3F0;
-
-	&:hover, &:active, &:focus {
-		background-color: #1EAEDB;
-		border-color: #1EAEDB;
-		color: #FFF;
-	}
 }
