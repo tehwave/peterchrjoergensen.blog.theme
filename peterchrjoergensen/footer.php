@@ -7,7 +7,7 @@
 ?>
 		<footer class="u-full-width text-center">
 			<!-- Contact -->
-			<section class="parallax contact" data-parallax="scroll" data-speed="0.6" data-image-src="/img/footer.jpg" data-natural-width="1920" data-natural-height="725" data-z-index="0">
+			<section class="parallax contact" data-parallax="scroll" data-speed="0.6" data-image-src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/footer.jpg" data-natural-width="1920" data-natural-height="725" data-z-index="0">
 				<div class="container">
 					<div class="row">
 						<div class="one-half column">
@@ -31,7 +31,7 @@
 			<section class="container copyright">
 				<p>
 					Twemoji by Twitter / <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener"><small>CC BY 4.0</small>.</a>
-					<span class="nucleo">Icons by <a href="https://nucleoapp.com/?ref=tehwave" target="_blank" rel="noopener"><img src="/img/nucleo-logo.svg" height="16" width="66" alt="Nucleo"></a> / <a href="https://github.com/NucleoApp/license-standard/blob/master/nucleo-standard-license.txt" target="_blank" rel="noopener"><small>License</small></a></span>
+					<span class="nucleo">Icons by <a href="https://nucleoapp.com/?ref=tehwave" target="_blank" rel="noopener"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/img/nucleo-logo.svg" height="16" width="66" alt="Nucleo"></a> / <a href="https://github.com/NucleoApp/license-standard/blob/master/nucleo-standard-license.txt" target="_blank" rel="noopener"><small>License</small></a></span>
 					MixItUp 3 by KunkaLabs / <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank" rel="noopener"><small>CC BY-ND 4.0</small></a>
 				</p>
 			</section>
