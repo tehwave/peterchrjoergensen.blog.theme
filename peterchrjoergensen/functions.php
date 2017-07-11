@@ -36,4 +36,7 @@ if ( function_exists('register_sidebar') ) {
 		'after_title'   => '',
 	) );
 }
+
+// Support
+add_theme_support( 'post-thumbnails' );
 ?>
