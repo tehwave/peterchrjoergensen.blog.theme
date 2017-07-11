@@ -30,18 +30,19 @@
 				<div class="row">
 					<section class="two-thirds column">
 						<h2>Latest posts</h2>
-						<hr>
 						<?php
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
-								?><h2><?php the_title(); ?></h2><?php
-								?><small>This entry was posted on 
-								<?php the_time('l, F jS, Y') ?> at 
-								<?php the_time() ?> and is filed 
-								under <?php the_category(', ') ?>. You 
-								can follow any responses to this entry 
-								through the <?php comments_rss_link('RSS 2.0'); ?> 
-								feed.</small><br><?php
-								the_excerpt();
+						?>
+							<article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
+								<?php the_title('<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>'); ?>
+								<small>
+									This post was posted on <?php the_time('l, F jS, Y') ?> at <?php the_time() ?> and is filed under <?php the_category(', ') ?>.
+								</small>
+								<br>
+								<?php the_excerpt();?>
+								<hr class="post-ruler">
+							</article>
+						<?php
 							endwhile; endif
 						?>
 					</section>
