@@ -2,8 +2,8 @@
 
 // Stylesheets
 function pcj_add_stylesheets() {
-	wp_register_script('pcj.css', get_template_directory_uri() . '/assets/css/pcj.min.css', array(),'1.0');
-	wp_enqueue_script('pcj.css');
+	wp_register_style('pcj.css', get_template_directory_uri() . '/assets/css/pcj.min.css');
+	wp_enqueue_style('pcj.css');
 }
 
 add_action('wp_enqueue_scripts', 'pcj_add_stylesheets');
