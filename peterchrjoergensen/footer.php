@@ -7,7 +7,7 @@
 ?>
 		<footer class="u-full-width text-center">
 			<!-- Contact -->
-			<section class="parallax contact" data-parallax="scroll" data-speed="0.6" data-image-src="<?php echo esc_url( get_template_directory_uri() ) ?>/img/footer.jpg" data-natural-width="1920" data-natural-height="725" data-z-index="0">
+			<section class="parallax contact" data-parallax="scroll" data-speed="0.6" data-image-src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/img/footer.jpg" data-natural-width="1920" data-natural-height="725" data-z-index="0">
 				<div class="container">
 					<div class="row">
 						<div class="one-half column">
