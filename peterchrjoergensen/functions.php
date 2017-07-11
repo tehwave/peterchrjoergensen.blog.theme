@@ -24,4 +24,16 @@ function pcj_add_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'pcj_add_scripts');
+
+// Widgets
+if ( function_exists('register_sidebar') ) {
+	register_sidebar( array(
+		'id'            => 'sidebar',
+		'name'          => 'Sidebar',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+}
 ?>
