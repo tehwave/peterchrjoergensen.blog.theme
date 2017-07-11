@@ -13,10 +13,10 @@ function pcj_add_scripts() {
 	wp_register_script('parallax.js', get_template_directory_uri() . '/assets/js/parallax.min.js', array(),'1.0');
 	wp_enqueue_script('parallax.js');
 
-	wp_register_script('jquery.js', get_template_directory_uri() . 'jquery-1.12.4.min.js', array(),'1.0');
+	wp_register_script('jquery.js', get_template_directory_uri() . '/assets/js/jquery-1.12.4.min.js', array(),'1.0');
 	wp_enqueue_script('jquery.js');
 
-	wp_register_script('SmoothScroll.js', get_template_directory_uri() . 'SmoothScroll.min.js', array(),'1.0');
+	wp_register_script('SmoothScroll.js', get_template_directory_uri() . '/assets/js/SmoothScroll.min.js', array(),'1.0');
 	wp_enqueue_script('SmoothScroll.js');
 }
 
