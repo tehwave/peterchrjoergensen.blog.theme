@@ -48,8 +48,8 @@
 			</div>
 			<nav class="row">
 				<!-- Navigation -->
-				<section class="three columns"><a href="/portfolio">Portfolio</a></section>
-				<section class="three columns"><a href="/files/CV-Peter-Christian-Jørgensen.pdf">C.V.</a></section>
+				<section class="three columns"><a href="https://peterchrjoergensen.dk/portfolio">Portfolio</a></section>
+				<section class="three columns"><a href="https://peterchrjoergensen.dk/files/CV-Peter-Christian-Jørgensen.pdf">C.V.</a></section>
 				<section class="three columns"><a href="https://blog.peterchrjoergensen.dk">Blog</a></section>
 				<!-- Social -->
 				<section class="three columns">
