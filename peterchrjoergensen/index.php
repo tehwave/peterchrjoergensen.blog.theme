@@ -29,7 +29,6 @@
 			<div class="container">
 				<div class="row">
 					<section class="two-thirds column">
-						<h2>Latest posts</h2>
 						<?php
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
 						?>
