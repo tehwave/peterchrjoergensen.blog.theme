@@ -40,7 +40,7 @@
 						</section>
 					</div>
 					<div class="row">
-						<hr class="post-ruler">
+						<hr>
 						<!-- Content -->
 						<div class="content">
 							<?php the_content();?>
