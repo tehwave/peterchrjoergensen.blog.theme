@@ -110,6 +110,13 @@ Other
 
 -------------------------------- */
 
+.post {
+	img {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+}
+
 // No JavaScript
 .no-js {
 	img.lazyload {
