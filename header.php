@@ -36,6 +36,7 @@
         <?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+		<span id="top"></span>
 		<header class="container header u-text-center">
 			<div class="row">
 				<section class="u-full-width">

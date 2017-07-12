@@ -21,6 +21,9 @@ function pcj_add_scripts() {
 
 	wp_register_script('SmoothScroll.js', get_template_directory_uri() . '/assets/js/SmoothScroll.min.js');
 	wp_enqueue_script('SmoothScroll.js');
+
+	wp_register_script('SmoothScrolltop.js', get_template_directory_uri() . '/assets/js/SmoothScrolltop.jquery.min.js', array('jquery-core'));
+	wp_enqueue_script('SmoothScrolltop.js');
 }
 
 add_action('wp_enqueue_scripts', 'pcj_add_scripts');

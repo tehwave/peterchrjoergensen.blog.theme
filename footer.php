@@ -34,6 +34,9 @@
 					<span class="nucleo">Icons by <a href="https://nucleoapp.com/?ref=tehwave" target="_blank" rel="noopener"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/img/nucleo-logo.svg" height="16" width="66" alt="Nucleo"></a> / <a href="https://github.com/NucleoApp/license-standard/blob/master/nucleo-standard-license.txt" target="_blank" rel="noopener"><small>License</small></a></span>
 					MixItUp 3 by KunkaLabs / <a href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank" rel="noopener"><small>CC BY-ND 4.0</small></a>
 				</p>
+				<p>
+					Scroll to <a href="#top">Top</a>
+				</p>
 			</section>
 		</footer>
 		<?php wp_footer(); ?>
