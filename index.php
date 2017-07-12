@@ -28,7 +28,7 @@
 			<!-- Latest Posts & Sidebar -->
 			<div class="container">
 				<div class="row">
-					<section class="two-thirds column">
+					<section class="two-thirds column posts-column">
 						<?php
 							if ( have_posts() ) : while ( have_posts() ) : the_post();
 						?>
