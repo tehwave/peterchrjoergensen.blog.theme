@@ -35,10 +35,7 @@
 						?>
 							<article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
 								<?php the_title('<h3 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>'); ?>
-								<small>
-									This post was posted on <?php the_time('l, F jS, Y') ?> at <?php the_time() ?> and is filed under <?php the_category(', ') ?>.
-								</small>
-								<br>
+								<p class="small"><?php the_time('l, F jS, Y') ?> – <?php the_category(', ') ?>.</p>
 								<?php the_excerpt();?>
 								<hr class="post-ruler">
 							</article>
