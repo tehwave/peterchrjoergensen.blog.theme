@@ -27,12 +27,12 @@
 				</section>
 
 				<div class="container">
-					<div class="row">
+					<div class="row u-text-center">
 						<!-- Meta -->
 						<section class="three columns">
 							<?php previous_post_link(); ?> &nbsp
 						</section>
-						<section class="six columns u-text-center">
+						<section class="six columns">
 							<?php the_time('l, F jS, Y') ?> – <?php the_category(', ') ?>.
 						</section>
 						<section class="three columns">
