@@ -29,7 +29,6 @@ body {
 }
 
 hr {
-    margin-bottom: 2rem;
     border-color: $orange;
 }
 
@@ -71,6 +70,10 @@ Header
 	    		fill: $blue !important;
 	    	}
 	    }
+	}
+
+	hr {
+    	margin-bottom: 2rem;
 	}
 
 	.icon {
