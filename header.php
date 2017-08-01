@@ -38,7 +38,7 @@
 	<body <?php body_class(); ?>>
 		<span id="top"></span>
 		<header class="container header u-text-center">
-			<div class="row">
+			<div>
 				<section class="u-full-width">
 					<!-- Title -->
 					<h1 class="title">
@@ -47,7 +47,7 @@
 					<hr>
 				</section>
 			</div>
-			<nav class="row">
+			<nav>
 				<!-- Navigation -->
 				<section class="three columns"><a href="https://peterchrjoergensen.dk/cv">C.V.</a></section>
 				<section class="three columns"><a href="https://peterchrjoergensen.dk/portfolio">Portfolio</a></section>
