@@ -4,7 +4,7 @@
  */
 ?>
 <form role="search" method="GET" action="<?php echo home_url('/'); ?>">
-    <div class="input-group">
+    <div class="input-group mb-4">
         <input
             type="search"
             class="form-control"
