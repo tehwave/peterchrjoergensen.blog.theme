@@ -10,6 +10,6 @@ if ( ! is_active_sidebar( 'sidebar' ) ) {
 }
 ?>
 
-<aside id="secondary" class="one-third column" role="complementary">
+<aside id="secondary" role="complementary">
 	<?php dynamic_sidebar( 'sidebar' ); ?>
 </aside><!-- #secondary -->
