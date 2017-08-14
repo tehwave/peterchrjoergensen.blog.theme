@@ -3,7 +3,7 @@
 // Stylesheets
 function pcj_add_stylesheets()
 {
-    wp_register_style('pcj.css', get_template_directory_uri() . '/resources/css/pcj.min.css');
+    wp_register_style('pcj.css', get_template_directory_uri().'/resources/css/pcj.min.css');
     wp_enqueue_style('pcj.css');
 }
 
@@ -12,10 +12,10 @@ add_action('wp_enqueue_scripts', 'pcj_add_stylesheets');
 // Scripts
 function pcj_add_scripts()
 {
-    wp_register_script('parallax.js', get_template_directory_uri() . '/resources/js/parallax.min.js', ['jquery-core']);
+    wp_register_script('parallax.js', get_template_directory_uri().'/resources/js/parallax.min.js', ['jquery-core']);
     wp_enqueue_script('parallax.js');
 
-    wp_register_script('smoothscroll.js', get_template_directory_uri() . '/resources/js/smoothscroll.min.js');
+    wp_register_script('smoothscroll.js', get_template_directory_uri().'/resources/js/smoothscroll.min.js');
     wp_enqueue_script('smoothscroll.js');
 }
 
