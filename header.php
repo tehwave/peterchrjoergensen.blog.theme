@@ -48,7 +48,7 @@
             <div class="row">
                 <section class="col">
                     <h1 class="title">
-                        <a href="/">Peter Christian Jørgensen</a>
+                        <a href="https://peterchrjoergensen.dk">Peter Christian Jørgensen</a>
                         <hr>
                     </h1>
                 </section>
