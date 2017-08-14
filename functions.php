@@ -2,13 +2,7 @@
 
 // Stylesheets
 function pcj_add_stylesheets() {
-	wp_register_style('normalize.css', get_template_directory_uri() . '/assets/css/normalize.min.css');
-	wp_enqueue_style('normalize.css');
-
-	wp_register_style('skeleton.css', get_template_directory_uri() . '/assets/css/skeleton.min.css');
-	wp_enqueue_style('skeleton.css');
-
-	wp_register_style('pcj.css', get_template_directory_uri() . '/assets/css/pcj.min.css');
+	wp_register_style('pcj.css', get_template_directory_uri() . '/resources/css/pcj.min.css');
 	wp_enqueue_style('pcj.css');
 }
 
