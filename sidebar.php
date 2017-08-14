@@ -5,11 +5,11 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 
-if ( ! is_active_sidebar( 'sidebar' ) ) {
-	return;
+if (! is_active_sidebar('sidebar')) {
+    return;
 }
 ?>
 
 <aside id="secondary" role="complementary">
-	<?php dynamic_sidebar( 'sidebar' ); ?>
+    <?php dynamic_sidebar('sidebar'); ?>
 </aside><!-- #secondary -->
