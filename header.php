@@ -23,8 +23,8 @@
                             Peter C. Jørgensen | peterchrjoergensen.dk | @tehwave
          -->
 
-        <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
-        <meta name="title" content="<?php bloginfo('name'); ?> <?php wp_title(); ?>")>
+        <title><?php wp_title(); ?></title>
+        <meta name="title" content="<?php wp_title(); ?>")>
         <meta name="description" content="<?php bloginfo('description'); ?>">
         <meta name="author" content="Peter C. Jørgensen">
 
