@@ -32,7 +32,7 @@
             <div class="container copyright">
                 <div class="row">
                     <p class="col">
-                        Designed and developed by Peter 'tehwave' Jørgensen via <a href="https://github.com/tehwave/peterchrjoergensen.dk" target="_blank" rel="noopener">GitHub</a>.
+                        Designed and developed by Peter 'tehwave' Jørgensen via <a href="https://github.com/tehwave/peterchrjoergensen.blog.theme" target="_blank" rel="noopener">GitHub</a>.
                     </p>
                 </div>
             </div>
