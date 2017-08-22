@@ -48,7 +48,7 @@
             <div class="row">
                 <section class="col">
                     <h1 class="title">
-                        <a href="https://peterchrjoergensen.dk">Peter Christian Jørgensen</a>
+                        <a href="//peterchrjoergensen.dk">Peter Christian Jørgensen</a>
                         <hr>
                     </h1>
                 </section>
@@ -56,9 +56,9 @@
 
             <!-- Navigation -->
             <nav class="row">
-                <section class="col-12 col-sm-3"><a href="https://peterchrjoergensen.dk/cv" title="Peter's Curriculum Vitae">C.V.</a></section>
-                <section class="col-12 col-sm-3"><a href="https://peterchrjoergensen.dk/portfolio" title="Peter's Portfolio">Portfolio</a></section>
-                <section class="col-12 col-sm-3"><a href="https://peterchrjoergensen.dk/blog/" title="Peter's Blog">Blog</a></section>
+                <section class="col-12 col-sm-3"><a href="//peterchrjoergensen.dk/cv" title="Peter's Curriculum Vitae">C.V.</a></section>
+                <section class="col-12 col-sm-3"><a href="//peterchrjoergensen.dk/portfolio" title="Peter's Portfolio">Portfolio</a></section>
+                <section class="col-12 col-sm-3"><a href="//peterchrjoergensen.dk/blog/" title="Peter's Blog">Blog</a></section>
                 <!-- Social -->
                 <section class="col-12 col-sm-3">
                     <a href="mailto:hello@peterchrjoergensen.dk?subject=Hello" target="_top" class="icon" title="Send Peter an email">
