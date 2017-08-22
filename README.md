@@ -24,6 +24,8 @@ Pull the latest changes from the `master` branch.
 git pull origin master
 ```
 
+After deployment, it is recommended to clear any caches made by plugins.
+
 ## Development
 
 The theme is developed using Wordpress and is based on the Twenty Seventeen theme.
