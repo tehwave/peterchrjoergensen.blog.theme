@@ -35,3 +35,4 @@ if (function_exists('register_sidebar')) {
 
 // Support
 add_theme_support('post-thumbnails');
+add_theme_support('title-tag');;
