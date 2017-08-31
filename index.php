@@ -29,7 +29,7 @@
                         <?php if (have_posts()) : ?>
                             <?php while (have_posts()) : ?>
                                 <?php  the_post(); ?>
-                                <article id="post-<?php the_ID(); ?>" <?php post_class('card post'); ?>>
+                                <article id="post-<?php the_ID(); ?>" <?php post_class('card mb-5 post'); ?>>
                                     <?php the_post_thumbnail('medium_large', ['class' => 'card-img-top img-fluid']) ?>
                                     <section class="card-body">
                                         <h1 class="card-title"><?php the_title('<a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a>'); ?></h1>
