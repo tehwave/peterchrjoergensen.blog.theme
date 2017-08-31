@@ -30,6 +30,38 @@
             body {
                 background-image: url('<?php echo esc_url(get_template_directory_uri()) ?>/resources/img/overlay.png');
             }
+
+            @media (min-width: 992px) {
+                .content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+                    width: 75%;
+                    text-align: justify;
+                    text-align-last: left;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+                    width: 60%;
+                    text-align: justify;
+                    text-align-last: left;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .content h1:after, .content h2:after, .content h3:after, .content h4:after, .content h5:after, .content h6:after {
+                content: ' ';
+                display: block;
+                height: 2px;
+                background: #e77e2d;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 15%;
+                border-radius: 4px;
+            }
+
         </style>
     </head>
     <body <?php body_class(); ?>>
