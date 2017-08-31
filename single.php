@@ -44,9 +44,8 @@
                             <?php next_post_link(); ?> &nbsp
                         </section>
                     </div>
-                    <div class="row">
+                    <div class="row mt-4">
                         <section class="col">
-                            <hr>
                             <!-- Content -->
                             <div class="content">
                                 <?php the_content();?>
