@@ -29,11 +29,14 @@
                         <?php if (have_posts()) : ?>
                             <?php while (have_posts()) : ?>
                                 <?php  the_post(); ?>
-                                <article id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
-                                    <?php the_title('<h1><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h1>'); ?>
-                                    <p class="lead"><?php the_time('l, F jS, Y') ?> – <?php the_category(', ') ?>.</p>
-                                    <?php the_excerpt();?>
-                                    <hr>
+                                <article id="post-<?php the_ID(); ?>" <?php post_class('card post'); ?>>
+                                    <?php the_post_thumbnail('medium_large', ['class' => 'card-img-top img-fluid']) ?>
+                                    <section class="card-body">
+                                        <h1 class="card-title"><?php the_title('<a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a>'); ?></h1>
+                                        <h2 class="card-subtitle mb-2 text-muted h6"><?php the_time('l, F jS, Y') ?></h2>
+                                        <p class="card-text"><?php the_excerpt();?></p>
+                                        <span class="card-link"><?php the_category(', ') ?></span>
+                                    </section>
                                 </article>
                             <?php endwhile; ?>
                         <?php endif; ?>
