@@ -11,5 +11,10 @@ if (! is_active_sidebar('sidebar')) {
 ?>
 
 <aside id="secondary" role="complementary">
-    <?php dynamic_sidebar('sidebar'); ?>
+    <?php get_search_form(true) ?>
+    <article class="card">
+        <section class="card-body">
+           <?php dynamic_sidebar('sidebar'); ?>
+        </section>
+    </article>
 </aside><!-- #secondary -->
