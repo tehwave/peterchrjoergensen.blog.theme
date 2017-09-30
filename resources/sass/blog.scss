@@ -37,8 +37,11 @@ Blog
         border-radius: 4px;
     }
 
-    // Responsive Images
+    // Images
     img {
+        border-radius: 0.25rem;
+
+        // Responsive
         max-width: 100%;
         height: auto;
     }
