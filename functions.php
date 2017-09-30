@@ -41,6 +41,7 @@ add_theme_support('post-thumbnails');
 add_theme_support('title-tag');;
 
 // Fix Captions w/ Width applied via Style
+// See: https://gist.github.com/johndugan/4359828
 add_shortcode('wp_caption', 'fixed_img_caption_shortcode');
 add_shortcode('caption', 'fixed_img_caption_shortcode');
 function fixed_img_caption_shortcode($attr, $content = null) {
