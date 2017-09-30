@@ -59,9 +59,9 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Content -->
                     <div class="row mt-4">
                         <section class="col">
-                            <!-- Content -->
                             <div class="content">
                                 <?php the_content();?>
                             </div>
