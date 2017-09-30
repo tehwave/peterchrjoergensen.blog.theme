@@ -5,6 +5,9 @@ function pcj_add_stylesheets()
 {
     wp_register_style('pcj.css', get_template_directory_uri().'/resources/css/pcj.min.css');
     wp_enqueue_style('pcj.css');
+
+    wp_register_style('blog.css', get_template_directory_uri().'/resources/css/blog.min.css');
+    wp_enqueue_style('blog.css');
 }
 
 add_action('wp_enqueue_scripts', 'pcj_add_stylesheets');
