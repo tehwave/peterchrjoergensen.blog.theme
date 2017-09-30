@@ -36,5 +36,11 @@ Blog
         width: 15%;
         border-radius: 4px;
     }
+
+    // Responsive Images
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
