@@ -32,17 +32,32 @@
                 </section>
 
                 <div class="container">
+                    <!-- Meta -->
                     <div class="row text-center">
-                        <!-- Meta -->
-                        <section class="col-3">
-                            <?php previous_post_link(); ?> &nbsp
-                        </section>
-                        <section class="col-6">
-                            <?php the_time('l, F jS, Y') ?> – <?php the_category(', ') ?>.
-                        </section>
-                        <section class="col-3">
-                            <?php next_post_link(); ?> &nbsp
-                        </section>
+                        <div class="col">
+                            <div class="card">
+                                <section class="card-body">
+                                    <div class="row">
+                                        <section class="col-6 order-2 col-md-3 order-md-1">
+                                            <?php if (get_previous_post()) : ?>
+                                                <small>Previous</small>
+                                                <div><?php previous_post_link('%link'); ?></div>
+                                            <?php endif; ?>
+                                        </section>
+                                        <section class="col-12 order-1 mb-4 col-md-6 order-md-2 mb-md-0">
+                                            <div><?php the_time('F jS, Y') ?></div>
+                                            <div><?php the_category(', ') ?></div>
+                                        </section>
+                                        <section class="col-6 order-3 col-md-3 order-md-3">
+                                            <?php if (get_next_post()) : ?>
+                                                <small>Next</small>
+                                                <div><?php next_post_link('%link'); ?></div>
+                                            <?php endif; ?>
+                                        </section>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
                     </div>
                     <div class="row mt-4">
                         <section class="col">
