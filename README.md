@@ -1,6 +1,6 @@
 # peterchrjoergensen.blog.theme
 
-My personal blog's Wordpress theme. Not meant for public consumption.
+[DEPRECATED] My personal blog's Wordpress theme. Not meant for public consumption.
 
 ## Demo
 
