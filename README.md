@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://blog.peterchrjoergensen.dk
+https://peterchrjoergensen.dk/blog
 
 ## Installation
 
@@ -30,7 +30,7 @@ After deployment, it is recommended to clear any caches made by plugins.
 
 The theme is developed using Wordpress and is based on the Twenty Seventeen theme.
 
-For more information on how I developed the theme, please visit [my blog](https://blog.peterchrjoergensen.dk).
+For more information on how I developed the theme, please visit [my blog](https://peterchrjoergensen.dk/blog).
 
 This repository is deprecated. Please do not file any issues or send any pull requests.
 
