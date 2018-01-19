@@ -32,7 +32,7 @@ The theme is developed using Wordpress and is based on the Twenty Seventeen them
 
 For more information on how I developed the theme, please visit [my blog](https://blog.peterchrjoergensen.dk).
 
-If you would like to contribute by filing an issue or sending a pull request, please feel free to do so.
+This repository is deprecated. Please do not file any issues or send any pull requests.
 
 I would be happy to answer any questions, that you might have regarding the website, via Twitter [@tehwave](https://twitter.com/tehwave).
 
