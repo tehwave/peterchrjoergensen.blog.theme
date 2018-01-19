@@ -43,4 +43,4 @@ I would be happy to answer any questions, that you might have regarding the webs
 
 ## License
 
-2017 (c) Peter Christian Jørgensen. All Rights Reserved.
+(c) Peter Christian Jørgensen. All Rights Reserved.
